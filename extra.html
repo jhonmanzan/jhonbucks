@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jhon Bucks - Extra</title>
+
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/responsivo.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
+    <!-- <style>
+      a {
+        margin-right: 30px; /* Adiciona 15px de espaçamento entre links */
+      }
+    </style> -->
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="logo">
+        <a href="index.html"> jhon bucks </a>
+      </div>
+      <div class="navbar">
+        <a href="quemSouEu.html">Quem sou eu</a>
+        <a href="jhonBucksMais.html">Jhon Bucks +</a>
+        <a href="extra.html" style="border-top: 2px solid #999595">Extra</a>
+      </div>
+    </nav>
+    <header style="margin-top: 25px">
+      <div class="headline2">
+        <h3 id="h3" style="text-align: center; width: 100%">
+          "A arte diz o indizível, exprime o inexprimível, traduz o
+          intraduzível."
+        </h3>
+
+        <p>Leonardo da Vinci</p>
+      </div>
+      <div class="headline2">
+        <img
+          style="margin: 15px"
+          src="img/11.png"
+          class="thumbnail"
+          onclick="openModal('img/zastroo.jpg')"
+        />
+
+        <div id="modal" class="modal">
+          <div class="headline2" style="margin: 15px">
+            <img class="modal-content" id="modal-image" />
+          </div>
+          <div class="headline2" style="margin: 15px">
+            <a id="botao2" onclick="closeModal()">Fechar a imagem </a>
+          </div>
+        </div>
+        <img
+          style="margin: 15px"
+          src="img/2.png"
+          class="thumbnail"
+          onclick="openModal('img/poster-36x24.jpg')"
+        />
+
+        <div id="modal" class="modal">
+          <img class="modal-content" id="modal-image" />
+          <a id="botao2" onclick="closeModal()">Fechar a imagem </a>
+        </div>
+
+        <img
+          style="margin: 15px"
+          src="img/3.png"
+          class="thumbnail"
+          onclick="openModal('img/00044dsdsdsd.jpg')"
+        />
+
+        <div id="modal" class="modal">
+          <img class="modal-content" id="modal-image" />
+          <a id="botao2" onclick="closeModal()">Fechar a imagem </a>
+        </div>
+
+        <img
+          style="margin: 15px"
+          src="img/up.png"
+          class="thumbnail"
+          onclick="openModal('img/uup.jpg')"
+        />
+
+        <div id="modal" class="modal">
+          <img class="modal-content" id="modal-image" />
+          <a id="botao2" onclick="closeModal()">Fechar a imagem </a>
+        </div>
+        <img
+          style="margin: 15px"
+          src="img/up2.png"
+          class="thumbnail"
+          onclick="openModal('img/uup2.jpg')"
+        />
+
+        <div id="modal" class="modal">
+          <img class="modal-content" id="modal-image" />
+          <a id="botao2" onclick="closeModal()">Fechar a imagem </a>
+        </div>
+
+        <img
+          style="margin: 15px"
+          src="img/up3.png"
+          class="thumbnail"
+          onclick="openModal('img/uup3.jpg')"
+        />
+
+        <div id="modal" class="modal">
+          <img class="modal-content" id="modal-image" />
+          <a id="botao2" onclick="closeModal()">Fechar a imagem </a>
+        </div>
+      </div>
+      <div class="headline2">
+        <p style="font-size: 14px; margin-top: 0px">
+          *Clique na imagem para ampliar
+        </p>
+      </div>
+    </header>
+
+    <footer class="finalfooter">
+      <div class="icon-container">
+        <a
+          href="https://www.facebook.com/jhonbucksarte"
+          class="icon"
+          style="margin-left: 20px"
+        >
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/jhonbucks/"
+          class="icon"
+          style="margin-left: 20px"
+        >
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a
+          href="https://www.youtube.com/channel/UCGSJ7LtWqymcVTPmgqpZVVw"
+          class="icon"
+          style="margin-left: 20px"
+        >
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+        <a
+          href="https://www.tiktok.com/@jhonbucksarte?lang=pt-br"
+          class="icon"
+          style="margin-left: 20px"
+        >
+          <i class="fa-brands fa-tiktok"></i>
+        </a>
+      </div>
+
+      <p id="final">
+        © Todos os direitos reservados. Jhon Bucks - 2009 - 2024 - ZiboO Studios
+      </p>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>

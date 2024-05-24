@@ -1,0 +1,54 @@
+@media screen and (max-width: 800px) {
+  .navbar {
+    margin: 5% 5% 0% 5%;
+    flex: 100%;
+  }
+
+  .logo {
+    flex: 100%;
+    margin: 0;
+    text-align: center;
+  }
+  .img-headline2 {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .img-headline2 img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .header {
+    padding-top: 50px;
+  }
+  .headline {
+    flex: 100%;
+    margin: 5%;
+    text-align: center;
+  }
+  .headline p {
+    text-align: center;
+  }
+  .img-headline {
+    flex: 100%;
+    margin: 5%;
+    text-align: center;
+  }
+
+  .modal {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .modal-content {
+    max-width: 100%;
+    height: auto;
+  }
+}
